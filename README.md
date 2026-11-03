@@ -21,4 +21,4 @@ Due to size constraints, the dataset is not hosted in this repository.
 3. Place all extracted CSV files inside the `TrafficLabelling` folder. The `pathlib` configuration will automatically locate and process them.
 
 ## Results & Explainability
-The Random Forest model achieved a **Weighted F1-Score of 99.71%**. To build analyst trust, SHAP values are integrated to explain specific alerts, mapping variables like *Packet Length Variance* to malicious intent.
+The Random Forest model achieved a **Weighted F1-Score of 99.87%**. To build analyst trust, SHAP values are integrated to explain specific alerts, mapping variables like *Packet Length Variance* to malicious intent.
